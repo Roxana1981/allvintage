@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, revers
+from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
@@ -68,6 +68,7 @@ class PostLike(View):
 
     def post(self, request, slug):
         post = get_object_or_404(Post, slug=slug)
+        
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
         else:
