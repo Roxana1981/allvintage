@@ -1,20 +1,33 @@
-body {
-    background-color: #F9FAFC;
+/* blog background color */
+.row {
+    background-color: #eae7de;
 }
 
+.bg-white {
+    background-color: #d3e1de !important;
+}
+/* blog logo */
 .brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.4rem;
+    font-family: Yesteryear, sans-serif;
+    font-size: 1.7rem;
     font-weight: 700;
     color: #4A4A4F;
 }
-
+/* logo color*/
 .red-o {
-    color: #E84610;
+    color: #b36b1e;
+}
+
+.logotext {
+    font-family: Lato, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #a8241b;
 }
 
 .thin {
     font-weight: 300;
+    color: rgba(212, 222, 238, 0.911);
 }
 
 .light-bg {
@@ -22,11 +35,11 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #7f8695 !important;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #eae7de;
 }
 
 .card {
@@ -34,6 +47,12 @@ body {
     background-color: transparent;
 }
 
+.card-title {
+    color: #73550c;
+    font-family: Yesteryear, sans-serif;
+    font-size: 3rem;
+}
+/* blog post image */
 .image-container {
     position: relative;
 }
@@ -43,15 +62,17 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #8096b7;
 }
-
+/* blog post box */
 .author {
-    color: white;
+    color: #764f1c;
     margin: 4px;
-    text-transform: uppercase;
+    background-color: #e3e9ec;
+
 }
 
+/* individual post page */
 .masthead {
     margin-top: 10px;
     overflow: hidden;
@@ -95,7 +116,7 @@ body {
 .page-link {
     color: #E84610;
 }
-
+/* individual post title */
 .post-title {
     margin-top: 20%;
     margin-left: 5%;
@@ -140,3 +161,35 @@ body {
     background: transparent;
     border: none;
 }
+
+.main-bg {
+    background-color: #eae7de;
+}
+
+/* content request page */
+
+form#content-form.mt-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button.btn.btn-black.rounded-0.text-uppercase.float-right {
+    color: #dddddd;
+    font-weight: 400;
+    border: 1px solid;
+    padding: 0.375rem 0.75rem;
+    background-color: #378768;
+    width: fit-content;
+}
+
+.messagecontent {
+    color:#6f94af;
+    text-align: center;
+}
+
+.submissionmessage {
+    text-align: center;
+    color: #378768;
+}
+
