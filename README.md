@@ -56,6 +56,16 @@ User comment update
 
 ![update](static/wireframes/edit.png)
 
+Content request
+
+![content](static/wireframes/content.png)
+
+**Mobile**
+
+All mobile related wireframes are reflected in the image below.
+
+![mobile](static/wireframes/mobile.png)
+
 ## User stories 
 
 ## User Experience 
