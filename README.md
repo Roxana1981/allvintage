@@ -78,28 +78,37 @@ All mobile related wireframes are reflected in the image below.
 
 The following features are currently available when accessing the blog.
 
-Navigation bar
-
 Homepage
 
 ![homepage](static/images/homepage1.png)
 
 Posts
 
-User comments tab
+![post](static/images/blogpost.png)
 
 User comment deletion tab
 
+![comment_deletion](static/images/deletion1.png)
+
 User comment update tab
+
+![comment_update](static/images/edit1.png)
 
 User sign up
 
+![signup](static/images/signup1.png)
+
 User sign in
+
+![signin](static/images/signin1.png)
 
 Content request section
 
+![content](static/images/content1.png)
+
 Blog page administration
 
+![admin](static/images/admin.png)
 
 ## Potential future developments
 
