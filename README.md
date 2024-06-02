@@ -25,6 +25,37 @@ The remaining aspect, which need to completed are as follows:
 
 ## Wireframes
 
+In the process of development a subset of wireframes have been created using Balsamiq application.
+Wireframes help to visualise the user experience within the application.
+
+Wireframes have been completed for desktop and mobile users.
+
+**Desktop**
+
+Blog's homepage
+
+![homepage](static/wireframes/homepage.png)
+
+Blog's posts and comment section
+
+![post](static/wireframes/post.png)
+
+Sign up page
+
+![signup](static/wireframes/signup.png)
+
+Sign in page
+
+![signin](static/wireframes/signin.png)
+
+User comment deletion
+
+![deletion](static/wireframes/deletion.png)
+
+User comment update
+
+![update](static/wireframes/update.png)
+
 ## User stories 
 
 ## User Experience 
