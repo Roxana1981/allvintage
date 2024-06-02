@@ -9,6 +9,8 @@ Please visit the blog [here](https://allvintage-48223a19dde6.herokuapp.com/).
 This project has been created for the purpose of completion of Project 4. The base of the project is influenced by Code Institute blog walkthrough project.
 In line with Project 4 requirements an addtitional functionality was created to allow users to submit blog content requests.
 
+AllVintage blog is created with the purpose of being a site where users can find interesting articles about old items, and be part of an online community of vintage enthusiastics.  AllVintage blog has a page Administrator, to create, update and delete posts.  Users can sign up, sign in/out, comment and like posts, complete form to suggest posts, engage with other users of the blog community, and engage with the page Administrator.
+
 Due to time constraints and some some challenges with deployment to Heroku, the project is incomplete at the time of the submission.
 The remaining aspect, which need to completed are as follows:
 -completion of CRUD functonality specifically to allow logged users to delete and amend their comments
@@ -26,6 +28,17 @@ The remaining aspect, which need to completed are as follows:
 ## Design 
 
 ## Solution 
+
+The solutions below were used for this blog project
+-Languages
+
+
+-Database
+
+-Development
+
+-Deployment and application hosting
+The application was deployed, and it is hosted on Heroku.  Further details are documented in the deployment section below.
 
 ## Wireframes
 
