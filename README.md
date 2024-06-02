@@ -80,6 +80,8 @@ Navigation bar
 
 Homepage
 
+![homepage](static/images/homepage1.png)
+
 Posts
 
 User comments tab
