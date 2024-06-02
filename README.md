@@ -21,6 +21,8 @@ The remaining aspect, which need to completed are as follows:
 
 ### Background
 
+![Multidevice view](static/images/mockup.png)
+
 ## Design 
 
 ## Solution 
