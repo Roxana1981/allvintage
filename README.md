@@ -1,6 +1,6 @@
 # AllVintage Blog
 
-Blog for all vintage stuff enthusiasts.
+Home of all vintage stuff.
 
 ## Project status update
 
@@ -72,7 +72,37 @@ All mobile related wireframes are reflected in the image below.
 
 ## Features 
 
+The following features are currently available when accessing the blog.
+
+Navigation bar
+
+Homepage
+
+Posts
+
+User comments tab
+
+User comment deletion tab
+
+User comment update tab
+
+User sign up
+
+User sign in
+
+Content request section
+
+Blog page administration
+
+
 ## Potential future developments
+
+This is a list of potential features/enhancements to be developed, in order to improve user's experience within the blog 
+*Include the Search function in the navigation bar, to allow users to look for specific items.
+*Enlarge blog images
+*Include videos in each blog post
+*Add a live chat for registered users within the posts, with the aim of enforcing community engagement
+*Add section to ask registered users if they wish to be notified each time a new post/article is uploaded/published in the blog
 
 ## Testing 
 
