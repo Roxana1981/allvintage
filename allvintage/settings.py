@@ -32,7 +32,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-roxana1981-allvintage-oe4bo0h65yz.ws-eu114.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['allvintage-48223a19dde6.herokuapp.com', 'localhost']
 
 
 # Application definition
