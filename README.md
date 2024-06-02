@@ -54,7 +54,7 @@ User comment deletion
 
 User comment update
 
-![update](static/wireframes/update.png)
+![update](static/wireframes/edit.png)
 
 ## User stories 
 
