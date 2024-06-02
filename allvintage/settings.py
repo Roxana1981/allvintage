@@ -28,11 +28,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-3r755^v#pg#8mq0*pzh6hz-w*jb8w61rxu*)xigfj(i4hoba6k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['allvintage-48223a19dde6.herokuapp.com', 'localhost', '8000-roxana1981-allvintage-lvubrwphex4.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-roxana1981-allvintage-oe4bo0h65yz.ws-eu114.gitpod.io', 'localhost']
 
 
 # Application definition

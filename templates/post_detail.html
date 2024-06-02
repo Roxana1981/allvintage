@@ -93,6 +93,19 @@
                     </p>
                     <!-- The body of the comment goes before the | -->
                     {{ comment.body | linebreaks }}
+                        {%  if user.username == comment.name %}
+                    <!-- Comment user will be able to see delete or edit option to action comment | -->
+                        <a href="{% url 'delete_comment' comment.id %}" i class="fas fa-trash"> 
+                        Delete</a> 
+
+                        </form>    
+                        <a href="{% url 'update_comment' comment.id %}" class="fas fa-pen"></i> Edit</a>
+                        </form>
+                        {% else %}
+
+                        <i class="far fa-comments"></i>
+
+                        {% endif %}
                 </div>
                 <!-- Our for loop ends here -->
                 {% endfor %}
