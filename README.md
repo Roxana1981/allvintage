@@ -2,6 +2,8 @@
 
 Home of all vintage stuff.
 
+Please visit the blog [here](https://allvintage-48223a19dde6.herokuapp.com/).
+
 ## Project status update
 
 This project has been created for the purpose of completion of Project 4. The base of the project is influenced by Code Institute blog walkthrough project.
