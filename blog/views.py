@@ -6,13 +6,14 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
 
-
+# Blog site with pagination of 6 posts
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
 
+# Blog indivual posts
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
@@ -66,6 +67,7 @@ class PostDetail(View):
             },
         )
 
+# Blog likes 
 class PostLike(View):
 
     def post(self, request, slug):
