@@ -30,12 +30,20 @@ The remaining aspect, which need to completed are as follows:
 ## Solution 
 
 The solutions below were used for this blog project
--Languages
 
+**Database structure**
+The blog site needs a database structure in order to be able to support required functionality such as blog posts, comments, likes, user and content request.
+Postgresql was used for the purpose of supporting database related needs of the site.
 
--Database
+The below image reflects the database structure.
 
--Development
+![database](static/images/database.png)
+
+**Code languages** 
+In order to create this blog site HTML, CSS and Python languages were used. HTML was used to create the initial framework of the blog, with Python supporting more complex elements of its functionality.
+The CSS was used for styling of the blog site.
+
+**Development**
 
 -Deployment and application hosting
 The application was deployed, and it is hosted on Heroku.  Further details are documented in the deployment section below.
