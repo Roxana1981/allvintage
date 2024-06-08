@@ -142,9 +142,15 @@ This is a list of potential features/enhancements to be developed, in order to i
 
 ## Testing 
 
-**Functional**
+The testing of the project included functional testing to confirm correct functionality of various blog's components. In addtion also a code testing was completed as part of project development.
 
-**Responsive user experience**
+**Functional testing**
+
+The functional testing was completed manually with a number of test scripts and related outcomes reflected in the below.
+The functional testing was focused on the homepage and blog's posts, user as well as admin testing. The testing has been deemed as successful.
+
+![testing](static/images/testing.png)
+
 
 **Code testing**
 
