@@ -306,6 +306,17 @@ Lighthouse testing for both desktop and mobile has been executed using Dev Tool 
 
 ## Deployment
 
+The blog application was deployed to production using Heroku.
+The following steps have been taken in order to successfully deploy the blog to production:
+
+1. Sign up to Heroku was required.
+2. New application needed to be created in Heroku. This required application name to be selected along required region (Europe).
+3. Heroku Postgres required to be added in the Resources tab.
+4. In the Settings section there were a number of Config Vars, which needed to be setup. These included SECRET_KEY, PORT (set to 8000), DATABASE_URL and CLOUDINARY_URL.
+   The relevant values included in the above referenced settings, were also included in the env.py file.
+5. In the Deploy tab of Heroku GitHub depository needed to be selected in order to connect it with Heroku for deployment.
+6. Deploy Branch button in Heroku was used to submit a build of the application in Heroku.
+7. When the application was deployed successfully, the URL for the application has become available in the Settings tab in Heroku.
 
 ## Credits
 
