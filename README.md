@@ -300,9 +300,14 @@ Lighthouse testing for both desktop and mobile has been executed using Dev Tool 
 
 **Bugs**
 
- **Fixed**
+**Fixed**
 
-  **Unfixed**
+1. During the process of development in Gitpod the blog site would not launch in the browser until the url was added to allowed hosts in the settings file. This is resolved.
+2. At some stage social media links were not opening in the production site. This was resolved via re-deployment.
+
+**Unfixed**
+
+1. At the present when using search option in Admin Portal, in the Comments section, shows error 500. The issue needs to be investigated further.
 
 ## Deployment
 
