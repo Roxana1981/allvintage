@@ -107,6 +107,11 @@ All mobile related wireframes are reflected in the image below.
 
 ## User stories 
 
+The progress and development of the project was completed using User Story approach. The User Stories were created and managed through Github's kanban board.
+Each user story was labelled with Must Have, Should Have or Could Have. The board was used to track User Stories in progress, yet to be started, completed and also some scheduled for the future developments.
+
+User Stories related to this project can be access in [here](https://github.com/users/Roxana1981/projects/3) 
+
 ## User Experience 
 
 ## Features 
