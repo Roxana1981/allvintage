@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .forms import ContentForm
 
+
 def content_view(request):
     if request.method == 'POST':
         form = ContentForm(request.POST)

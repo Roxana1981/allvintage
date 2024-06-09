@@ -6,12 +6,14 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
 
+
 # Blog site with pagination of 6 posts
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
+
 
 # Blog indivual posts
 class PostDetail(View):
@@ -35,7 +37,7 @@ class PostDetail(View):
                 "comment_form": CommentForm()
             },
         )
-    
+
     def post(self, request, slug, *args, **kwargs):
 
         queryset = Post.objects.filter(status=1)
@@ -67,18 +69,21 @@ class PostDetail(View):
             },
         )
 
-# Blog likes 
+# Blog likes
+
+
 class PostLike(View):
 
     def post(self, request, slug):
         post = get_object_or_404(Post, slug=slug)
-        
+
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
         else:
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 # User comment deletion class based view
 class DeleteComment(DeleteView):
@@ -89,7 +94,7 @@ class DeleteComment(DeleteView):
         return reverse('post_detail', args=[self.object.post.slug])
 
 
-# User comment edit class based view 
+# User comment edit class based view
 class UpdateComment(UpdateView):
 
     model = Comment
