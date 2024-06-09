@@ -156,11 +156,147 @@ The functional testing was focused on the homepage and blog's posts, user as wel
 
 **HTML code**
 
+The code validation for HTML was completed in W3C HTML Validator. 
+
+Below is the outcome of the HTML files tested
+
+Base and Index files
+
+No errors were detected.
+
+![testing](static/test/html.baseindex.png)
+
+Detail_post file 
+
+Some errors were identified.
+
+![testing](static/test/html.post.png)
+
+Register file
+
+Some errors were identified.
+
+![testing](static/test/html.register.png)
+
+Login file 
+
+No errors were detected.
+
+![testing](static/test/html.login.png)
+
+Content file
+
+Some errors were identified.
+
+![testing](static/test/html.content.png)
+
+
 **CSS code**
 
-**JavaScrip code**
+The CSS code was validated using Jigsaw CSS Validator. No errors have been identified.
 
-**Lighthouse – Dev Tools**
+![testing](static/test/css.png)
+
+**Python code**
+Testing of the python code was completed using Code Institute's Python Linter herou app.
+Below are the outcomes of the code tests.
+
+Settings.py file
+
+One of the lines of the code is longer than expected.
+
+![testing](static/test/settings.png)
+
+Allvintage URLS.py file
+
+No errors were identified.
+
+![testing](static/test/allvintage.urls.png)
+
+Blog Admin.py file
+
+No errors were identified.
+
+![testing](static/test/blog.admin.png)
+
+Blog Apps.py file
+
+No errors were identified.
+
+![testing](static/test/blog.apps.png)
+
+Blog URLS.py file
+
+No errors were identified.
+
+![testing](static/test/blog.urls.png)
+
+Blog Views.py file
+
+No errors were identified.
+
+![testing](static/test/blog.views.png)
+
+Blog Forms.py file
+
+No errors were identified.
+
+![testing](static/test/blog.forms.png)
+
+Blog Models.py file
+
+No errors were identified.
+
+![testing](static/test/blog.models.png)
+
+Content Apps.py file
+
+No errors were identified.
+
+![testing](static/test/content.apps.png)
+
+Content Forms.py file
+
+No errors were identified.
+
+![testing](static/test/content.forms.png)
+
+Content Models.py file 
+
+No errors were identified.
+
+![testing](static/test/content.models.png)
+
+Content Admin.py file 
+
+No errors were identified.
+
+![testing](static/test/content.admin.png)
+
+Content Views.py file
+
+No errors were identified.
+
+![testing](static/test/content.views.png)
+
+Content URLS.py file
+
+No errors were identified.
+
+![testing](static/test/content.urls.png)
+
+
+**Lighthouse Testing**
+
+Lighthouse testing for both desktop and mobile has been executed using Dev Tool in Chrome.
+
+*Desktop* 
+
+![testing](static/test/lighthousedesktop.png)
+
+*Mobile*
+
+![testing](static/test/lighthousemobile.png)
 
 **Bugs**
 
