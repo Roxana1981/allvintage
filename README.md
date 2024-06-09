@@ -4,34 +4,37 @@ Home of all vintage stuff.
 
 Please visit the blog [here](https://allvintage-48223a19dde6.herokuapp.com/).
 
-## Project status update
+## Project 4
+
+### Background
 
 This project has been created for the purpose of completion of Project 4. The base of the project is influenced by Code Institute blog walkthrough project.
 In line with Project 4 requirements an addtitional functionality was created to allow users to submit blog content requests.
 
 AllVintage blog is created with the purpose of being a site where users can find interesting articles about old items, and be part of an online community of vintage enthusiastics.  AllVintage blog has a page Administrator, to create, update and delete posts.  Users can sign up, sign in/out, comment and like posts, complete form to suggest posts, engage with other users of the blog community, and engage with the page Administrator.
 
-Due to time constraints and some some challenges with deployment to Heroku, the project is incomplete at the time of the submission.
-The remaining aspect, which need to completed are as follows:
--completion of CRUD functonality specifically to allow logged users to delete and amend their comments
--additional styling is required to make the blog more appealing to users
--code testing 
--code commenting across code files
--completion of the readme document, including database schema and wireframes
-
-## Project 4
-
-### Background
-
 ![Multidevice view](static/images/mockup.png)
 
-## Design 
+## Functional design
+
+The key purpose of the site is to blog, focusing on vintage items. In order for the site to be a fully functional blog the following elements were developed.
+
+1. **Post** - Admin of the blog can post blog posts, which will be reflected on the blog's homepage. The blog allows for 6 posts to be displayed at each page. More than 6 posts will result on additional sites being created and blog's user to be able to browser through them using Next/Previous functionality.
+
+2. **Admin**- Admin of the blog is in control of the content on the site and also user comment approvals. Each comment will be subject to admin's approval. Admin can add and remove posts, comment and content within each individual post.
+
+3. **User input** - User of the blog is able to like and comment on posts as long as the user is logged in. The site also allows the user to delete and edit their own comments.
+
+4. **Content request** - User of the blog can complete a submission for the content, without being logged in.
+
+5. **User Admin** - Use can register and subsequently login in order to be able to like and comments on the posts.
 
 ## Solution 
 
-The solutions below were used for this blog project
+The solutions below were used for this blog project:
 
 **Database structure**
+
 The blog site needs a database structure in order to be able to support required functionality such as blog posts, comments, likes, user and content request.
 Postgresql was used for the purpose of supporting database related needs of the site.
 
@@ -39,14 +42,25 @@ The below image reflects the database structure.
 
 ![database](static/images/database.png)
 
-**Code languages** 
+**Code languages**
+
 In order to create this blog site HTML, CSS and Python languages were used. HTML was used to create the initial framework of the blog, with Python supporting more complex elements of its functionality.
 The CSS was used for styling of the blog site.
 
 **Development**
 
--Deployment and application hosting
-The application was deployed, and it is hosted on Heroku.  Further details are documented in the deployment section below.
+The devlopment of the project was completed using the below technologies.
+
+- GitHub was used to store the project's code.
+- Gitpod was used for development, with regular commits pushed to GitHub.
+- Django framework was used to develop structure of the blog. In additional some of the ready features of Django such as Admin Portal were also used.
+- Cloudinary was used for image management.
+- Summernote was installed for text editing.
+- Crispy forms library. 
+- DrawSQL app was used to draw database structure.
+- Balsamiq app was used wireframes.
+- Google Dev Tool
+
 
 ## Wireframes
 
