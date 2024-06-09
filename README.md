@@ -345,6 +345,7 @@ The following steps have been taken in order to successfully deploy the blog to 
 ## Credits
 
 Blog images were sourced from Pexels and Unsplash websites. Credit to Chepte Cormani, Cartist, Pixabay, Giallo, Anna Zakharova, Jordan Benton.
+Text in the blog posts was sourced from Wikipedia.
 
 The project concept was influenced by Code Institute's blog walkthrough project.
 
