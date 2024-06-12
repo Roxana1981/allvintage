@@ -11,23 +11,23 @@ Please visit the blog [here](https://allvintage-48223a19dde6.herokuapp.com/).
 This project has been created for the purpose of completion of Project 4. The base of the project is influenced by Code Institute blog walkthrough project.
 In line with Project 4 requirements an addtitional functionality was created to allow users to submit blog content requests.
 
-AllVintage blog is created with the purpose of being a site where users can find interesting articles about old items, and be part of an online community of vintage enthusiastics.  AllVintage blog has a page Administrator, to create, update and delete posts.  Users can sign up, sign in/out, comment and like posts, complete form to suggest posts, engage with other users of the blog community, and engage with the page Administrator.
+AllVintage blog is a site where users can find interesting articles about old items, and be part of an online community of vintage enthusiastics.  AllVintage blog has a page Administrator, to create, update and delete posts.  Users can sign up, sign in/out, comment and like posts.  Also, complete a form to suggest posts, engage with other users of the blog community, and engage with the page Administrator.
 
 ![Multidevice view](static/images/mockup.png)
 
 ## Functional design
 
-The key purpose of the site is to blog, focusing on vintage items. In order for the site to be a fully functional blog the following elements were developed.
+In order for the site to be a fully functional blog, the following elements were developed.
 
-1. **Post** - Admin of the blog can post blog posts, which will be reflected on the blog's homepage. The blog allows for 6 posts to be displayed at each page. More than 6 posts will result on additional sites being created and blog's user to be able to browser through them using Next/Previous functionality.
+1. **Post** - Admin of the blog can post blog posts, which will be reflected in the blog's homepage. The blog allows for 6 posts to be displayed at each page. More than 6 posts will result on additional pages being created, and blog's user to be able to browse through them using Next/Previous functionality.
 
-2. **Admin**- Admin of the blog is in control of the content on the site and also user comment approvals. Each comment will be subject to admin's approval. Admin can add and remove posts, comment and content within each individual post.
+2. **Admin**- Admin of the blog is in control of the content on the site, and user's comment approvals. Each user's comment is subject to admin's approval. Admin can add and remove posts, comments, and content within each individual post.
 
-3. **User input** - User of the blog is able to like and comment on posts as long as the user is logged in. The site also allows the user to delete and edit their own comments.
+3. **User input** - User of the blog is able to like and comment on posts, as long as the user is logged in. The site also allows the user to delete and edit their own comments.
 
-4. **Content request** - User of the blog can complete a submission for the content, without being logged in.
+4. **Content request** - User of the blog can complete a submission request for the content, without being logged in.
 
-5. **User Admin** - Use can register and subsequently login in order to be able to like and comments on the posts.
+5. **Users** - Use can register and subsequently login in order to be able to like and comments on the posts.
 
 ## Solution 
 
@@ -44,8 +44,8 @@ The below image reflects the database structure.
 
 **Code languages**
 
-In order to create this blog site HTML, CSS and Python languages were used. HTML was used to create the initial framework of the blog, with Python supporting more complex elements of its functionality.
-The CSS was used for styling of the blog site.
+For the purpose of creating this blog site, HTML, CSS and Python languages were used. HTML was used to create the initial framework of the blog, with Python supporting more complex elements of its functionality.
+The CSS was used for styling the site.
 
 **Development**
 
@@ -53,7 +53,7 @@ The devlopment of the project was completed using the below technologies.
 
 - GitHub was used to store the project's code.
 - Gitpod was used for development, with regular commits pushed to GitHub.
-- Django framework was used to develop structure of the blog. In additional some of the ready features of Django such as Admin Portal were also used.
+- Django framework was used to develop structure of the blog. In addition, some of the ready features of Django such as Admin Portal were also used.
 - Cloudinary was used for image management.
 - Summernote was installed for text editing.
 - Crispy forms library. 
@@ -154,18 +154,19 @@ Blog page administration
 
 This is a list of potential features/enhancements to be developed, in order to improve user's experience within the blog 
 *Include the Search function in the navigation bar, to allow users to look for specific items.
-*Enlarge blog images
-*Include videos in each blog post
-*Add a live chat for registered users within the posts, with the aim of enforcing community engagement
-*Add section to ask registered users if they wish to be notified each time a new post/article is uploaded/published in the blog
+*Add a zoom in feature for blog images.
+*Include videos in each blog post.
+*Add a live chat for registered users within the posts, with the aim of enforcing community engagement.
+*Add section to ask registered users if they wish to be notified each time a new post is uploaded in the blog.
+*Customized 404 error page.
 
 ## Testing 
 
-The testing of the project included functional testing to confirm correct functionality of various blog's components. In addtion also a code testing was completed as part of project development.
+The testing of the project included functional testing to confirm correct functionality of various blog's components. Also, a code testing was completed as part of project development.
 
 **Functional testing**
 
-The functional testing was completed manually with a number of test scripts and related outcomes reflected in the below.
+The functional testing was completed manually with a number of test scripts and related outcomes reflected below.
 The functional testing was focused on the homepage and blog's posts, user as well as admin testing. The testing has been deemed as successful.
 
 ![testing](static/images/testing.png)
@@ -321,8 +322,8 @@ Lighthouse testing for both desktop and mobile has been executed using Dev Tool 
 
 **Fixed**
 
-1. During the process of development in Gitpod the blog site would not launch in the browser until the url was added to allowed hosts in the settings file. This is resolved.
-2. At some stage social media links were not opening in the production site. This was resolved via re-deployment.
+1. During the process of development in Gitpod, the blog site would not launch in the browser until the url was added to allowed hosts in the settings file. This is resolved.
+2. At some stage, social media links were not opening in the production site. This was resolved via re-deployment.
 
 **Unfixed**
 
@@ -349,6 +350,6 @@ Text in the blog posts was sourced from Wikipedia.
 
 The project concept was influenced by Code Institute's blog walkthrough project.
 
-Thank you to Code Institute for module content.
+Thank you to the slack community, and Code Institute for module content.
 
 
