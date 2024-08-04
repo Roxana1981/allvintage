@@ -2,7 +2,7 @@
 
 Home of all vintage stuff.
 
-Please visit the blog [here](https://allvintage-48223a19dde6.herokuapp.com/).
+Please visit the blog [here](https://allvintage-d7bd15cb9e82.herokuapp.com/).
 
 ## Project 4
 
